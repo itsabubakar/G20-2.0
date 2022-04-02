@@ -1,13 +1,13 @@
 .companies {
     display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: 200px 200px 200px 200px;
     justify-content: center;
     column-gap: 60px;
 }
 
 .company {
-    width: 250px;
-    height: 120;
+    width: 200px;
+    height: 80;
     margin-bottom: 50px;
 }
 
@@ -24,8 +24,8 @@
 }
 
 .images img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
 }
 
 .left {
