@@ -1,0 +1,52 @@
+.hero {
+    display: flex;
+    align-items: flex-end;
+    height: 500px;
+    background: url(/assets/img26.jpg) no-repeat;
+}
+
+.strata-logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.strata {
+    margin: 70px 0;
+    display: grid;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.strata-text-conc {
+    max-width: 1000px;
+}
+
+.strata-text-img {
+    display: flex;
+}
+
+.strata-text-img p{
+    max-width: 700px;
+}
+
+.strata-img-conc img{
+    width: 200px;
+}
+
+.strata-text, .strata-text-img {
+    margin: 35px 0;
+}
+
+.strata-text p {
+    margin: 20px 0;
+}
+
+.right {
+    margin-right: 30px;
+}
+
+.left {
+    margin-left: 30px;
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: #fff;
+}
+
+.skyward {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.skyward-logo {
+    width: 150px;
+    margin: 30px 0 60px 0;
+    display: grid;
+    justify-self: center
+}
+
+.skyward-flex-conc {
+    display: flex;
+    /* align-items: center; */
+    max-width: 1000px;
+}
+
+
+.skyward-img-conc img {
+    width: 300px;
+    height: 300px;
+}
+
+.skyward-text {
+    margin-top: 30px;
+    margin-right: 80px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.second-p{
+    margin-top: 60px;
+}
+
