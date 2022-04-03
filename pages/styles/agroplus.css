@@ -1,0 +1,98 @@
+body {
+    background-color: #fff;
+}
+
+.agroplus {
+    display: grid;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.agroplus-logo {
+    display: flex;
+    justify-self: center;
+    width: 100px;
+}
+
+.agroplus-body {
+    display: flex;
+    margin: 70px 0;
+}
+
+.agroplus-text {
+    max-width: 500px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #22ce13;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.agroplus-img{
+    width: 300px;
+    height: 360px;
+}
+
+.right {
+    margin-right: 100px;
+}
+
+.left {
+    margin-left: 100px;
+}
+
+.big-caption {
+    position:relative;
+    margin-top: -45px;
+    padding: 10px 0;
+    background-color: #22ce13;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+.vegetables {
+    display: grid;
+    justify-items: center;
+}
+
+.veg-header {
+    margin-bottom: 50px;
+    background-color: #5cec4e9f;
+    padding: 5px 10px;
+}
+
+.veg-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+}
+
+.veg-conc img {
+    width: 200px;
+    height: 200px;
+}
+
+.small-caption {
+    position:relative;
+    margin-top: -45px;
+    padding: 10px 0;
+    background-color: #5bec4e;
+    text-align: center;
+    color: #fff;
+}
+.veg-button button {
+    width: 130px;
+    height: 40px;
+    background-color: var(--button-font);
+    border: none;
+    font-size: .9rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: var(--primary-font);
+    cursor: pointer;
+    margin: 50px 0;
+  }
+  

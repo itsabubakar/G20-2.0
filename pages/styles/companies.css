@@ -1,13 +1,12 @@
 .companies {
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns: repeat(5, 130px);
     justify-content: center;
-    column-gap: 60px;
+    column-gap: 90px;
 }
 
 .company {
-    width: 200px;
-    height: 80;
+    width: 150px;
     margin-bottom: 50px;
 }
 
@@ -24,24 +23,29 @@
 }
 
 .images img {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 
 .left {
     margin-right: 20px;
     margin-bottom: 80px;
-    height: 100px;
+    height: 80px;
     border: 1px solid #7e797911;
 
 }
 
 .right {
-    border: 1px solid #7e797977;
+    border: 1px solid #66626211;
     margin-top: 20px;
-    width: 180px;
+    width: 120px;
 }
 
 .img-conc-text {
     margin-top: 30px;
+}
+
+.comp-link {
+    color: #1897ff;
+    text-decoration: underline;
 }
