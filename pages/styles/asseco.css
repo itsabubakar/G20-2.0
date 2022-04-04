@@ -1,0 +1,77 @@
+body {
+    background-color: #fff;
+}
+
+.asseco {
+    display: grid;
+    justify-content: center;
+}
+
+.asseco-conc {
+    margin-top: 30px;
+    max-width: 1000px;
+    display: grid;
+}
+
+.asseco-logo {
+    width: 100px;
+}
+
+.main-text {
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+.side-img img {
+    width: 300px;
+    height: 166px;
+    margin-bottom: 20px;
+}
+
+.asseco-upper-section {
+    display: flex;
+}
+
+.asseco-category-img-conc {
+    width: 300px;
+    height: 300px;
+}
+
+.asseco-bottom-section {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: space-between;
+    margin: 70px 0;
+}
+
+.category-name {
+    margin: 20px 5px;
+    padding: 10px 20px;
+    background-color: #C4C4C4;
+}
+
+.category-items {
+    background-color: #f5efef;
+    margin: 0 5px;
+    padding: 10px;
+    height: 110px;
+}
+
+.asseco-button {
+    justify-self: center;
+}
+
+.asseco-button button {
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.asseco-button button:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 9px;
+}

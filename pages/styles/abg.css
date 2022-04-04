@@ -1,0 +1,40 @@
+body {
+    background: #fff;
+}
+
+.abg {
+    margin: 70px 0;
+}
+
+.abg-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.abg-logo img {
+    width: 100px;
+}
+
+.abg-conc {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    column-gap: 150px;
+    justify-content: center;
+}
+
+.group-img img {
+    height: 220px;
+}
+
+.abg-group {
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-size: .9rem;
+}
+
+.abg-group-name {
+    text-align: center;
+    margin: 35px 0;
+    font-size: 1.2rem;
+}
