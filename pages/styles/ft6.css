@@ -1,0 +1,85 @@
+body {
+    background: #f5f1f170;
+}
+
+.hero {
+    height: 500px;
+    background: url(/assets/bg01.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.ft6-logo {
+    width: 100px;
+    height: 100px;
+    margin: 30px 0 0 30px;
+}
+
+.caption {
+    margin-top: 230px;
+    margin-left: 50px;
+    font-size: 2rem;
+    max-width: 800px;
+    background-color: #d6d3d30e;
+    position: absolute;
+    color: #2C2E7A;
+    padding: 9px 20px;
+    font-style: italic;
+}
+
+
+.ft6 {
+    display: grid;
+    justify-items: center;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+.ft6-text-conc {
+    max-width: 1000px;
+    padding: 60px;
+    background-color: #fff;
+
+}
+
+.ft6-text, .ft6-text-img {
+    margin-bottom: 50px;
+}
+
+.ft6-img-conc img {
+    width: 210px;
+    height: 210px;
+}
+
+.ft6-text-img {
+    display: flex;
+    align-items: center;
+}
+
+.side-text {
+    max-width: 700px;
+}
+
+.right {
+    margin-right: 40px;
+}
+
+.left {
+    margin-left: 40px;
+}
+
+.side-text p {
+    margin-bottom: 20px;
+}
+
+
+
+.subhead {
+    display: flex;
+    justify-content: center;
+    background-color: #c4c4c470;
+    margin: 100px 270px;
+    padding: 9px 0;
+}
+
+.ft6-text p {
+    margin-bottom: 10px;
+}

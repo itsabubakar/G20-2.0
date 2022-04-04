@@ -1,0 +1,82 @@
+body {
+    background-color: #fff;
+}
+
+.triad {
+    display: grid;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.triad-logo {
+    display: flex;
+    justify-self: center;
+    width: 100px;
+}
+
+.triad-body {
+    display: flex;
+    margin: 70px 0;
+}
+
+.triad-text {
+    max-width: 500px;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.triad-img{
+    width: 300px;
+    height: 360px;
+}
+
+.right {
+    margin-right: 100px;
+}
+
+.left {
+    margin-left: 100px;
+}
+
+.triad-projects {
+    display: grid;
+    justify-items: center;
+}
+
+.triad-header {
+    margin-bottom: 50px;
+    background-color: #489ee473;
+    padding: 5px 10px;
+}
+
+.triad-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+}
+
+.triad-conc img {
+    width: 200px;
+    height: 200px;
+}
+
+.triad-button button {
+    width: 130px;
+    height: 40px;
+    background-color: #086bbdcc;
+    border: none;
+    font-size: .9rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: var(--primary-font);
+    cursor: pointer;
+    margin: 50px 0;
+  }
+
+.triad-button button:hover {
+    color: #000;
+}
+
+
+  
