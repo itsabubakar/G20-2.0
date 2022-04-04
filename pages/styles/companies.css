@@ -10,6 +10,12 @@
     margin-bottom: 50px;
 }
 
+.comp-h2 h2{
+  border-bottom: 1px solid rgb(175, 167, 167);
+  padding-bottom: 20px;
+  margin-top: -20px;
+}
+
 .img {
     display: flex;
     align-items: center;
@@ -27,8 +33,8 @@
     width: 100px;
 }
 
+
 .left {
-    margin-right: 20px;
     margin-bottom: 80px;
     height: 80px;
     border: 1px solid #7e797911;
@@ -42,7 +48,10 @@
 }
 
 .img-conc-text {
+    font-size: 1rem;
     margin-top: 30px;
+    width: 150px;
+    text-align: center;
 }
 
 .comp-link {
