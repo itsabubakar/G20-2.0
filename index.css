@@ -82,10 +82,12 @@ a {
 
 .hero-text {
   color: #fff;
-  line-height: 25px;
+  line-height: 30px;
   margin-left: 50px;
   margin-top: 70px;
   display: flex;
+  word-spacing: 2.5px;
+  font-size: 1.9rem;
 }
 
 .first-p {
@@ -107,6 +109,15 @@ a {
   font-weight: 700;
 }
 
+.bold {
+  font-weight: 800;
+}
+
+.heavy-bold {
+  font-weight: 710;
+  color: #fafafa;
+}
+
 .member-comp {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -119,7 +130,7 @@ a {
   font-size: 1.5rem;
   font-family: 'Raleway', sans-serif;
   margin-bottom: 50px;
-  border-bottom: 1px solid rgb(175, 167, 167);
+  border-bottom: 1px solid rgb(231, 230, 230);
 }
 
 .header h2 {
@@ -148,6 +159,7 @@ a {
 }
 
 .button {
+  margin-top: 50px;
   width: 130px;
   height: 40px;
   background-color: var(--button-font);

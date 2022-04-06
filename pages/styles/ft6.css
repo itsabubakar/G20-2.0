@@ -19,7 +19,7 @@ body {
     margin-left: 50px;
     font-size: 2rem;
     max-width: 800px;
-    background-color: #d6d3d30e;
+    background-color: #d6d3d371;
     position: absolute;
     color: #2C2E7A;
     padding: 9px 20px;
@@ -67,6 +67,10 @@ body {
 }
 
 .side-text p {
+    margin-bottom: 20px;
+}
+
+.areas {
     margin-bottom: 20px;
 }
 

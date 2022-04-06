@@ -37,3 +37,8 @@ body {
     margin-top: 30px;
 }
 
+.bottom-header {
+    margin-top: 40px;
+    background-color: rgba(122, 117, 117, 0.075);
+    padding: 5px 9px;
+}

@@ -23,6 +23,14 @@ body {
     font-size: 1.4rem;
 }
 
+.red {
+    color: rgba(255, 0, 0, 0.658);
+}
+
+.bottom {
+    margin-top: 20px;
+}
+
 .side-img img {
     width: 300px;
     height: 166px;
@@ -58,19 +66,26 @@ body {
     height: 110px;
 }
 
-.asseco-button {
-    justify-self: center;
+.category-img-info p{
+    font-weight: 600;
 }
 
-.asseco-button button {
+.asseco-button {
+    justify-self: center;
+    margin-bottom: 40px;
+}
+
+.asseco-button a {
     border: none;
     padding: 10px 20px;
     margin-bottom: 40px;
     font-size: 1.1rem;
     font-weight: 500;
+    color: #fdf6f6;
+    background-color: rgb(54, 53, 53);
 }
 
-.asseco-button button:hover {
+.asseco-button a:hover {
     background-color: #000;
     color: #fff;
     border-radius: 9px;
