@@ -3,8 +3,12 @@ body {
 }
 
 .contact {
-    padding-bottom: 20px;
+    padding-bottom: 5px;
       border-bottom: 1px solid rgb(230, 227, 227);
+}
+
+.header {
+    margin: 40px 0;
 }
 
 .contact-page {
