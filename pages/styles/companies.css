@@ -1,60 +1,94 @@
 .companies {
-    display: grid;
-    grid-template-columns: repeat(5, 130px);
-    justify-content: center;
-    column-gap: 90px;
+  display: grid;
+  grid-template-columns: repeat(5, 130px);
+  justify-content: center;
+  column-gap: 90px;
 }
 
 .company {
-    width: 150px;
-    margin-bottom: 50px;
+  width: 150px;
+  margin-bottom: 50px;
 }
 
-.comp-h2 h2{
+.comp-h2 h2 {
   border-bottom: 1px solid #b6b2b279;
   padding-bottom: 20px;
   margin-top: -20px;
 }
 
 .img {
-    display: flex;
-    align-items: center;
-    justify-items: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 .images {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .images img {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
-
 .left {
-    margin-bottom: 80px;
-    height: 80px;
-    border: 1px solid #7e797911;
-
+  margin-bottom: 80px;
+  height: 80px;
+  border: 1px solid #7e797911;
 }
 
 .right {
-    border: 1px solid #66626211;
-    margin-top: 20px;
-    width: 120px;
+  border: 1px solid #66626211;
+  margin-top: 20px;
+  width: 120px;
 }
 
 .img-conc-text {
-    font-size: 1rem;
-    margin-top: 30px;
-    width: 150px;
-    text-align: center;
+  font-size: 1rem;
+  margin-top: 30px;
+  width: 150px;
+  text-align: center;
 }
 
 .comp-link {
-    color: #1897ff;
-    text-decoration: underline;
+  color: #1897ff;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 360px) {
+  .companies {
+    display: grid;
+    grid-template-columns: repeat(1, 130px);
+    justify-content: center;
+    column-gap: 90px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 760px) {
+  .companies {
+    display: grid;
+    grid-template-columns: repeat(2, 130px);
+    justify-content: center;
+    column-gap: 90px;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+  .companies {
+    display: grid;
+    grid-template-columns: repeat(3, 130px);
+    justify-content: center;
+    column-gap: 90px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
+  .companies {
+    display: grid;
+    grid-template-columns: repeat(4, 130px);
+    justify-content: center;
+    column-gap: 90px;
+  }
 }
