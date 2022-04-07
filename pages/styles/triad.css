@@ -37,6 +37,7 @@ body {
 
 .left {
     margin-left: 100px;
+    font-weight: 700;
 }
 
 .triad-projects {
@@ -46,7 +47,7 @@ body {
 
 .triad-header {
     margin-bottom: 50px;
-    background-color: #489ee473;
+    background-color: #d8e61b73;
     padding: 5px 10px;
 }
 
@@ -64,7 +65,7 @@ body {
 .triad-button button {
     width: 130px;
     height: 40px;
-    background-color: #086bbdcc;
+    background-color: #c5d11ccc;
     border: none;
     font-size: .9rem;
     border-radius: 5px;

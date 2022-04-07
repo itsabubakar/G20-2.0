@@ -23,8 +23,32 @@ body {
     justify-content: center;
 }
 
-.group-img img {
+.comm {
+    width: 400px;
     height: 220px;
+    background-image: url(/assets/img17.jpg);
+    background-size: cover;
+}
+
+.oil {
+    width: 400px;
+    height: 220px;
+    background-image: url(/assets/img23.jpg);
+    background-size: cover;
+}
+
+.caps {
+    width: 400px;
+    height: 220px;
+    background-image: url(/assets/img24.jpg);
+    background-size: cover;
+}
+
+.energy {
+    width: 400px;
+    height: 220px;
+    background-image: url(/assets/img25.jpg);
+    background-size: cover;
 }
 
 .abg-group {
@@ -33,8 +57,18 @@ body {
     font-size: .9rem;
 }
 
+.abg-group-text {
+    margin-top: -82px;
+}
 .abg-group-name {
     text-align: center;
     margin: 35px 0;
+    padding: 9px 0;
     font-size: 1.2rem;
+    background-color: rgba(139, 133, 133, 0.918);
+    color: rgb(17, 17, 19);
+}
+
+.abg-group-p {
+    margin-bottom: 10px;
 }
