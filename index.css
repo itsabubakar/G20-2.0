@@ -82,7 +82,7 @@ a {
 
 .hero-text {
   color: #fff;
-  line-height: 30px;
+  line-height: 30px; 
   margin-left: 50px;
   margin-top: 70px;
   display: flex;
@@ -114,8 +114,12 @@ a {
 }
 
 .heavy-bold {
-  font-weight: 710;
-  color: #fafafa;
+  font-weight:600;
+  color: #ffffff;
+}
+
+.italics {
+  font-style: italic;
 }
 
 .member-comp {
