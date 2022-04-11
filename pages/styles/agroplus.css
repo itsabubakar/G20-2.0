@@ -95,4 +95,46 @@ body {
     cursor: pointer;
     margin: 50px 0;
   }
-  
+
+  @media screen and (max-width: 900px) {
+
+    .agroplus-body {
+        align-items: center;
+        margin: 0 20px;
+    }
+      .top-flex {
+          flex-direction: column-reverse;
+      }
+
+      .btm-flex {
+          flex-direction: column;
+      }
+
+      .veg-grid {
+          grid-template-columns: repeat(1, 1fr);
+          row-gap: 40px;
+      }
+
+      .left {
+          margin-left: 0px;
+      }
+
+      .right {
+          margin-right: 0px;
+      }
+
+      .agroplus-text {
+          border-radius: 0;
+          margin-top: 20px;
+          margin-bottom: 40px;
+          padding: 15px;
+      }
+  }
+
+  @media screen and (min-width: 700px) and (max-width: 1000px){
+      .veg-grid {
+          grid-template-columns: repeat(2, 1fr);
+          row-gap: 40px;
+      }
+  }
+    

@@ -422,7 +422,6 @@ footer {
 }
 
 .footer-nav-items li a:hover {
-  margin: 10px 20px;
   padding-bottom: 10px;
   border-bottom: 2px solid var(--highlight);
 }
@@ -439,17 +438,9 @@ footer {
   font-size: 0.6rem;
 }
 
-@media screen and (max-width: 512px) {
+/* @media screen and (max-width: 512px) {
   .footer-nav-items {
     font-size: 0.7rem;
-  }
-
-  .footer-nav-items li {
-    /* margin: 0px; */
-  }
-
-  .footer-nav-items li:hover {
-    margin: 0px;
   }
 
   .footer-nav-items li a {
@@ -461,4 +452,4 @@ footer {
     font-size: 0.6rem;
     padding: 5px 10px;
   }
-}
+} */
