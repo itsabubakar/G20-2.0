@@ -58,3 +58,21 @@ button {
     text-transform: capitalize;
     border-radius: 10px;
 }
+
+@media screen  and (max-width: 800px){
+    .contact-page {
+        flex-direction: column;
+    }
+
+    .text {
+        margin-bottom: 30px;
+    }
+
+    .form {
+        max-width: 300px;
+    }
+
+    input {
+        width: 200px;
+    }
+}
