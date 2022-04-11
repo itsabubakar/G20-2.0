@@ -79,5 +79,23 @@ body {
     color: #000;
 }
 
+@media screen and (max-width: 900px) {
+
+    .triad {
+        /* margin: 0 20px; */
+    }
+    .mobile-flex {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-img {
+        width: 100%;
+    }
+
+    .right {
+        margin-right: 0;
+    }
+}
+
 
   

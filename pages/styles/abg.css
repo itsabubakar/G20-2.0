@@ -72,3 +72,20 @@ body {
 .abg-group-p {
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+.abg-conc {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 40px;
+}
+
+.comm, .oil, .caps, .energy{
+    width: 100%;
+    height: 400px;
+}
+
+.abg-group-p, .btm-p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+}

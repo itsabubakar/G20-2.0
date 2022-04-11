@@ -90,3 +90,44 @@ body {
     color: #fff;
     border-radius: 9px;
 }
+
+@media screen and (max-width: 700px) {
+
+    .asseco {
+        margin: 0px 20px;
+    }
+    .asseco-upper-section {
+        /* display: block; */
+        flex-direction: column-reverse;
+    }
+
+    .main-text {
+        margin-right: 0px;
+    }
+
+    .side-img {
+        display: flex;
+    }
+
+    .side-img img {
+        width: 100%;
+        padding: 10px 5px;
+    }
+    .asseco-bottom-section {
+        grid-template-columns: repeat(1, 300px);
+        justify-content: center;
+    }
+
+    .asseco-categories {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .asseco-bottom-section {
+        grid-template-columns: repeat(2, 300px);
+        justify-content: center;
+        grid-gap: 20px;
+    }
+
+}
